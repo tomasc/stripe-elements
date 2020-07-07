@@ -2,7 +2,7 @@
   "name": "@tomasc/stripe-elements",
   "description": "Stripe::Elements",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "repository": {
     "url": "git@github.com:tomasc/stripe-elements.git",
     "type": "git"
