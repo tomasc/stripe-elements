@@ -1,4 +1,7 @@
 # Stripe::Elements
+
+[![Build Status](https://travis-ci.org/tomasc/stripe-elements.svg?branch=master)](https://travis-ci.org/tomasc/stripe-elements)
+
 Short description and motivation.
 
 ## Usage
