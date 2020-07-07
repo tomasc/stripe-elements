@@ -22,10 +22,13 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "dry-initializer", "~> 3.0"
   spec.add_dependency "dry-types", "~> 1.4"
+  spec.add_dependency "slim", "~> 4.0"
+  spec.add_dependency "slim-rails", "~> 3.2"
 
   spec.add_development_dependency "sqlite3"
 
-  spec.add_development_dependency "lefthook"
+  spec.add_development_dependency "capybara", "~> 3.33"
+  spec.add_development_dependency "lefthook", "~> 0.7"
   spec.add_development_dependency "rubocop", "0.81"
   spec.add_development_dependency "rubocop-rails", "2.5.1"
   spec.add_development_dependency "rubocop-rails_config", "0.10"
