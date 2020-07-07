@@ -1,0 +1,41 @@
+{
+  "name": "@tomasc/stripe-elements",
+  "description": "Stripe::Elements",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "url": "git@github.com:tomasc/stripe-elements.git",
+    "type": "git"
+  },
+  "main": "package/main.js",
+  "files": [
+    "package"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": [
+    "Tomáš Celizna <mail@tomascelizna.com>",
+    "Asger Behncke Jacobsen <a@asgerbehnckejacobsen.dk>"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "css-loader": "^3.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-modules": "^1.4.1",
+    "postcss-preset-env": "^6.7.0",
+    "stimulus": "^1.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "qrcodejs-new": "^0.0.1",
+    "stimulus": "^1.1.1"
+  }
+}

@@ -2,6 +2,9 @@
 
 require "stripe/elements/engine"
 
+require "dry/initializer"
+require "dry/types"
+
 module Stripe
   module Elements
     # Your code goes here...
