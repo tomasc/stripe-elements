@@ -1,0 +1,6 @@
+div *dom_attrs
+  fieldset
+    label
+      div class=bem(e: :label) = t(".label")
+      div data-target="#{controller_name}.sepaDebit" data-style=style_json
+  p class=bem(e: :notice) = t(".notice", store: "Bold Decisions")

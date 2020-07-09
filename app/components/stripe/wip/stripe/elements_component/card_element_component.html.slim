@@ -1,0 +1,9 @@
+div *dom_attrs
+  h2 = t(".heading")
+  fieldset
+    label
+      div class=bem(e: :label, m: :card_holder) = t(".card_holder")
+      input class=bem(e: :card_holder_input) data-target=controller_target("cardHolder") placeholder=t(".name_on_card")
+    label
+      div class=bem(e: :label, m: :card_number) = t(".card_number")
+      div data-target=controller_target("card") data-style=style_json

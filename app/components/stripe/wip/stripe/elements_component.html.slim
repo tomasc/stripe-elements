@@ -1,0 +1,10 @@
+div *dom_attrs
+  = render CardElementComponent.new
+  
+  / NOTE: could also be separated?
+  div class=bem(e: :errors) data-target="#{controller_name}.errors"
+
+  / TODO:
+  / = render SelectElementNavigationComponent.new(elements: elements)
+  / - elements.each do |element|
+  /   = render element

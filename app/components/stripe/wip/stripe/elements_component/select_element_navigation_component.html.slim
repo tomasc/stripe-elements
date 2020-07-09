@@ -1,0 +1,6 @@
+nav *dom_attrs
+  ul class=bem(e: :elements)
+    - elements.each do |element|
+      li class=bem(e: :element)
+        button type="button" data-select=element.class.name.demodulize.underscore
+          = t(".#{element.class.name.demodulize.underscore}")
