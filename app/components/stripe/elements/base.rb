@@ -2,7 +2,7 @@
 
 module Stripe
   module Elements
-    class Component < ViewComponent::Base
+    class Base < ViewComponent::Base
       extend Dry::Initializer
 
       module Types
