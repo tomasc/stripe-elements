@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Stripe::Elements
-  class ApplicationComponent < ViewComponent::Base
+  class Base < ViewComponent::Base
     extend Dry::Initializer
 
     module Types
