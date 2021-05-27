@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Stripe
-  class Elements
+  module Elements
     class Element < Base
       def stripe_element
         tag.div data: stimulus_target_data("stripeElement")

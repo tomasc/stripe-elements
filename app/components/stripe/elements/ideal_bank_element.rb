@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Stripe
-  class Elements
+  module Elements
     class IdealBankElement < Element
       include CountryApplicability
       include CurrencyApplicability

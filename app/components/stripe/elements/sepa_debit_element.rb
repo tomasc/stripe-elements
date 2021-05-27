@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Stripe
-  class Elements
+  module Elements
     class SepaDebitElement < Element
       include Stripe::Elements::CountryApplicability
       include Stripe::Elements::CurrencyApplicability

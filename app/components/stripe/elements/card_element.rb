@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Stripe
-  class Elements
+  module Elements
     class CardElement < Element
       # FLOW = "none"
 
