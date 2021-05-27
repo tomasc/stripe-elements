@@ -1,0 +1,7 @@
+div *dom_attrs
+  h2 = t(".heading")
+
+  fieldset
+    = stripe_element
+
+  p class=bem(e: :notice) = t(".notice", store: "Bold Decisions")

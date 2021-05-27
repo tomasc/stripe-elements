@@ -1,0 +1,15 @@
+div *dom_attrs
+  h2 = t(".heading")
+
+  fieldset
+    label
+      div class=bem(e: :label, m: :card_holder)
+        = t(".card_holder")
+      = account_holder_input
+    label
+      div class=bem(e: :label, m: :ideal)
+        = t(".ideal_bank")
+      = stripe_element
+
+  p class=bem(e: :notice)
+    = t(".notice")

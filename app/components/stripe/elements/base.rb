@@ -1,11 +1,13 @@
 # frozen_string_literal: true
 
-module Stripe::Elements
-  class Base < ViewComponent::Base
-    extend Dry::Initializer
+module Stripe
+  module Elements
+    class Component < ViewComponent::Base
+      extend Dry::Initializer
 
-    module Types
-      include Dry.Types()
+      module Types
+        include Dry.Types()
+      end
     end
   end
 end

@@ -1,0 +1,10 @@
+div *dom_attrs
+  h2 class=bem(e: :heading) = t(".heading")
+  fieldset
+    label
+      div class=bem(e: :label, m: :card_holder)
+        = t(".card_holder")
+      = card_holder_input
+    label
+      div class=bem(e: :label, m: :card_number) = t(".card_number")
+      = stripe_element
